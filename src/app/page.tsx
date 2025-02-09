@@ -4,7 +4,7 @@ export default function Home() {
       <section className="text-center mb-16">
         <h1 className="text-4xl font-bold mb-4 dark:text-white">Welcome to My Portfolio</h1>
         <p className="text-xl text-gray-600 dark:text-gray-300">
-          I'm a software developer passionate about creating amazing web experiences
+          I&apos;m a software developer passionate about creating amazing web experiences
         </p>
       </section>
 
@@ -113,7 +113,7 @@ export default function Home() {
             <div>
               <h4 className="font-semibold text-lg">12th Pass</h4>
               <div className="text-gray-600 dark:text-gray-400">
-                <p>St. Austin's Sr. Sec. School - Jodhpur, Rajasthan</p>
+                <p>St. Austin&apos;s Sr. Sec. School - Jodhpur, Rajasthan</p>
                 <p>Board: RBSE</p>
                 <p>Graduated: 01/2011</p>
                 <p>GPA: 85%</p>
@@ -123,7 +123,7 @@ export default function Home() {
             <div>
               <h4 className="font-semibold text-lg">10th Pass</h4>
               <div className="text-gray-600 dark:text-gray-400">
-                <p>St. Austin's Sr. Sec. School - Jodhpur, Rajasthan</p>
+                <p>St. Austin&apos;s Sr. Sec. School - Jodhpur, Rajasthan</p>
                 <p>Board: RBSE</p>
                 <p>Graduated: 01/2009</p>
                 <p>GPA: 80%</p>
