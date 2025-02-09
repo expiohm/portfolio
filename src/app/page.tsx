@@ -11,7 +11,7 @@ export default function Home() {
       <section className="mb-8 sm:mb-16">
         <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 dark:text-white">About Me</h2>
         <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300">
-          Senior Software Engineer with 7+ years of expertise...
+          Senior Software Engineer with 7+ years of expertise in building high-performance web applications at scale. Proven track record of leading complex platform rebuilds and driving significant performance improvements, including consistently achieving 90+ Lighthouse scores. Specialized in React ecosystem, micro-frontend architecture, and developing accessible component libraries. Demonstrated success in architecting solutions for international markets and managing high-traffic e-commerce platforms serving 100,000+ daily users. Passionate about modern web technologies and maintaining engineering excellence through performance optimization and robust monitoring solutions.
         </p>
       </section>
 
