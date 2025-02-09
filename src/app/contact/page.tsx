@@ -1,17 +1,17 @@
 export default function Contact() {
   return (
-    <main className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-8 text-center dark:text-white">Get in Touch</h1>
+    <main className="container mx-auto px-4 py-6 sm:py-8">
+      <h1 className="text-3xl sm:text-4xl font-bold mb-6 sm:mb-8 text-center dark:text-white">Get in Touch</h1>
       
       <div className="max-w-2xl mx-auto">
-        <div className="mb-8 text-center">
-          <p className="text-lg text-gray-600 dark:text-gray-300 mb-4">
+        <div className="mb-6 sm:mb-8 text-center">
+          <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 mb-4">
             I&apos;m always open to new opportunities and collaborations.
             Feel free to reach out!
           </p>
         </div>
 
-        <form className="space-y-6">
+        <form className="space-y-4 sm:space-y-6">
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-200">
               Name

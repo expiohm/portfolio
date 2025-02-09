@@ -1,24 +1,24 @@
 export default function Home() {
   return (
     <main className="container mx-auto px-4 py-8">
-      <section className="text-center mb-16">
-        <h1 className="text-4xl font-bold mb-4 dark:text-white">Welcome to My Portfolio</h1>
-        <p className="text-xl text-gray-600 dark:text-gray-300">
+      <section className="text-center mb-8 sm:mb-16">
+        <h1 className="text-3xl sm:text-4xl font-bold mb-3 sm:mb-4 dark:text-white">Welcome to My Portfolio</h1>
+        <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300">
           I&apos;m a software developer passionate about creating amazing web experiences
         </p>
       </section>
 
-      <section className="mb-16">
-        <h2 className="text-2xl font-bold mb-4 dark:text-white">About Me</h2>
-        <p className="text-gray-700 dark:text-gray-300">
-        Senior Software Engineer with 7+ years of expertise in building high-performance web applications at scale. Proven track record of leading complex platform rebuilds and driving significant performance improvements, including consistently achieving 90+ Lighthouse scores. Specialized in React ecosystem, micro-frontend architecture, and developing accessible component libraries. Demonstrated success in architecting solutions for international markets and managing high-traffic e-commerce platforms serving 100,000+ daily users. Passionate about modern web technologies and maintaining engineering excellence through performance optimization and robust monitoring solutions.
+      <section className="mb-8 sm:mb-16">
+        <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 dark:text-white">About Me</h2>
+        <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300">
+          Senior Software Engineer with 7+ years of expertise...
         </p>
       </section>
 
-      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div className="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+        <div className="p-4 sm:p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
           <h3 className="text-xl font-bold mb-2 dark:text-white">Skills</h3>
-          <div className="dark:text-gray-300">
+          <div className="dark:text-gray-300 text-sm sm:text-base">
             <div className="mb-4">
               <h4 className="font-semibold mb-2">Front-end Development & Architecture</h4>
               <ul className="list-disc list-inside">
@@ -61,9 +61,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+        <div className="p-4 sm:p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
           <h3 className="text-xl font-bold mb-2 dark:text-white">Experience</h3>
-          <div className="space-y-6 dark:text-gray-300">
+          <div className="space-y-4 sm:space-y-6 dark:text-gray-300">
             <div>
               <h4 className="font-semibold text-lg">SDE 2</h4>
               <div className="text-gray-600 dark:text-gray-400">
@@ -98,9 +98,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+        <div className="p-4 sm:p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
           <h3 className="text-xl font-bold mb-2 dark:text-white">Education</h3>
-          <div className="space-y-6 dark:text-gray-300">
+          <div className="space-y-4 sm:space-y-6 dark:text-gray-300">
             <div>
               <h4 className="font-semibold text-lg">B.Tech/B.E. : Computer Science</h4>
               <div className="text-gray-600 dark:text-gray-400">
